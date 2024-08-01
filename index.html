@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync</title>
+
+    <!----font awesome cdn link---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!---swiper css link--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!----custom css link file---->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!----header section ends----->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-book-open-reader"></i>StudySync</a>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="subjects.html">Subjects</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!----account form section starts----->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+        
+        <form class="login-form active" action="">
+            <h3>login</h3>
+            <input type="email" placeholder="Enter your Email" class="box">
+            <input type="password" placeholder="Enter your Password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Register</h3>
+            <input type="email" placeholder="Enter your Email" class="box">
+            <input type="password" placeholder="Enter your Password" class="box">
+            <input type="password" placeholder="confirm your Password" class="box">
+            <input type="submit" value="register now" class="btn">
+        </form>
+    </div>
+    <!----account form section ends----->
+
+    <!----header section ends----->
+
+    <!---home section starts---->
+    
+    <section class="home">
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide slide" style="background: url(images/homeslide-1.png)no-repeat;">
+                    <div class="content">
+                        <h3>Welcome to StudySync</h3>
+                        <p>Explore interactive courses tailored for beginners and professionals. Gain new skills or advance your career with our comprehensive offerings.</p>
+                        <a href="courses.html" class="btn">Get Started</a>
+                    </div>
+                </section>
+                <section class="swiper-slide slide" style="background: url(images/homeslide-3.png)no-repeat;">
+                    <div class="content">
+                        <h3>Welcome to StudySync</h3>
+                        <p>Explore interactive courses tailored for beginners and professionals. Gain new skills or advance your career with our comprehensive offerings.</p>
+                        <a href="courses.html" class="btn">Get Started</a>
+                    </div>
+                </section>
+                <section class="swiper-slide slide" style="background: url(images/homeslide-2.png)no-repeat;">
+                    <div class="content">
+                        <h3>Welcome to StudySync</h3>
+                        <p>Explore interactive courses tailored for beginners and professionals. Gain new skills or advance your career with our comprehensive offerings.</p>
+                        <a href="courses.html" class="btn">Get Started</a>
+                    </div>
+                </section>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!---home section ends---->
+
+    <!----subject section starts--->
+
+    <section class="home-subjects">
+        <h1 class="heading">Our Popular Subjects</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/class10.jpg" alt="">
+                <h3>Class 10</h3>
+                <p>7 modules</p>
+            </div>
+            <div class="box">
+                <img src="images/class11.png" alt="">
+                <h3>Class 11</h3>
+                <p>15 modules</p>
+            </div>
+            <div class="box">
+                <img src="images/class12.png" alt="">
+                <h3>Class 12</h3>
+                <p>15 modules</p>
+            </div>
+            <div class="box">
+                <img src="images/jee.png" alt="">
+                <h3>JEE Preparation</h3>
+                <p>12 modules</p>
+            </div>
+            <div class="box">
+                <img src="images/neet.png" alt="">
+                <h3>NEET Preparation</h3>
+                <p>12 modules</p>
+            </div>
+            <div class="box">
+                <img src="images/upsc.png" alt="">
+                <h3>UPSC Preparation</h3>
+                <p>12 modules</p>
+            </div>
+        </div>
+    </section>
+
+    <!----subject section ends--->
+
+    <!----home courses slider section starts--->
+    <section class="home-courses">
+        <h1 class="heading">Our Popular Courses</h1>
+        <div class="swiper home-courses-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/webdev.jpg" alt="">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Web Development</h3>
+                        <p>Learn to design and build functional and dynamic websites.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/ai.png" alt="">
+                        <h3>Artificial Intelligence</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Study the development of systems that simulate human intelligence.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/ml.png" alt="">
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Machine Learning</h3>
+                        <p>Learn techniques for creating algorithms that enable computers to learn from data.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/cyber.png" alt="">
+                        <h3>CyberSecurity</h3>
+                    </div>
+                    <div class="content">
+                        <h3>CyberSecurity</h3>
+                        <p>Explore methods and practices to protect systems and data from cyber threats.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/data-science.png" alt="">
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Data Science with Python</h3>
+                        <p>Utilize Python to analyze and interpret complex data sets.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/powerbi.png" alt="">
+                        <h3>Power BI</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Power BI</h3>
+                        <p>Learn to create interactive data visualizations and reports using Power BI.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!----home courses slider section ends--->
+
+    <!-----footer section starts---->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fa-solid fa-book-open-reader"></i>StudySync</h3>
+                <p>Empowering learners with quality online courses, expert guidance, and a community of passionate educators.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                    <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="subjects.html" class="link">Subjects</a>
+                <a href="courses.html" class="link">Courses</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Useful Links</h3>
+                <a href="#" class="link">Help Center</a>
+                <a href="#" class="link">Ask Questions</a>
+                <a href="#" class="link">Send Feedback</a>
+                <a href="#" class="link">Privacy Policy</a>
+                <a href="#" class="link">Terms and Conditions</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Enter Your Email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="credit">Created by <span>Syntax Squad</span> | All rights reserved!</div>
+    </section>
+    <!-----footer section ends---->
+
+
+
+
+    <!---swiper js link--->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!----custom js file link---->
+    <script src="js/script.js"></script>
+</body>
+</html>
